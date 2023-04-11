@@ -11,42 +11,20 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <a href="https://twitter.com/motivater247">Motivate</a>
         </h1>
+        <h2>
+          Samuel Tigistu
+        </h2>
+        <h3>Twitter: 
+          <a href="https://twitter.com/motivater247">@motivater247</a>
+        </h3>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          My Twitter Account is being used for my Senior Project at Yale University.
+          I will be doing research on the types of actions that contribute to interactions on social media and will be using a Q-learning algorithm on my Twitter Bot to automate actions like tweeting, 
+          liking posts, retweeting posts, etc. The account is a motivational twitter account.
         </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
       </main>
 
       <footer>
